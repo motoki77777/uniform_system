@@ -1,0 +1,131 @@
+package bean;
+
+public class User {
+
+	private int user_id;
+	private String password;
+	private String registration_date;
+	private String update_date;
+	private String update_condition;
+	private String name;
+	private String name_ruby;
+	private String mail_address;
+	private String phone_number;
+	private String post_code;
+	private String address;
+	private int authority;
+
+	public User() {
+
+		user_id = 0;
+		password = null;
+		registration_date = null;
+		update_date = null;
+		update_condition = null;
+		name = null;
+		name_ruby = null;
+		mail_address = null;
+		phone_number = null;
+		post_code = null;
+		address = null;
+		authority = 0;
+
+	}
+
+	public int getUser_id() {
+		return user_id;
+	}
+
+	public void setUser_id(int user_id) {
+		this.user_id = user_id;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getRegistration_date() {
+		return registration_date;
+	}
+
+	public void setRegistration_date(String registration_date) {
+		this.registration_date = registration_date;
+	}
+
+	public String getUpdate_date() {
+		return update_date;
+	}
+
+	public void setUpdate_date(String update_date) {
+		this.update_date = update_date;
+	}
+
+	public String getUpdate_condition() {
+		return update_condition;
+	}
+
+	public void setUpdate_condition(String update_condition) {
+		this.update_condition = update_condition;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getName_ruby() {
+		return name_ruby;
+	}
+
+	public void setName_ruby(String name_ruby) {
+		this.name_ruby = name_ruby;
+	}
+
+	public String getMail_address() {
+		return mail_address;
+	}
+
+	public void setMail_address(String mail_address) {
+		this.mail_address = mail_address;
+	}
+
+	public String getPhone_number() {
+		return phone_number;
+	}
+
+	public void setPhone_number(String phone_number) {
+		this.phone_number = phone_number;
+	}
+
+	public String getPost_code() {
+		return post_code;
+	}
+
+	public void setPost_code(String post_code) {
+		this.post_code = post_code;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public int getAuthority() {
+		return authority;
+	}
+
+	public void setAuthority(int authority) {
+		this.authority = authority;
+	}
+
+}
